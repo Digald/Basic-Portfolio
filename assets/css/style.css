@@ -1,0 +1,13 @@
+body {
+	margin: 0;
+	padding: 0;
+
+}
+.content {
+	min-height: calc(100vh - 70px);
+}
+
+.footer {
+	height: 50px;
+	background-color: cyan;
+}
