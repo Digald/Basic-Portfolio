@@ -1,5 +1,6 @@
 html, body {
 	height: 100%;
+	width: 100%;
 }
 
 body {
@@ -20,8 +21,9 @@ HEADER
 */
 header {
 	position: relative;
+	height: 100px;
 	width: 100%;
-	overflow: auto;
+	/*overflow: auto;*/
 	border-bottom: 2px solid #cccccc;
 	background-color: #ffffff;
 	font-family: 'Georgia', Times, Times New Roman, serif;
@@ -33,16 +35,23 @@ h1 {
 	float: left;
 	background-color: #4aaaa5;
 	color: #ffffff;
-	font-size: 24px;
-	margin: 0 0 0 15%;
-	padding: 25px;
+	font-size: 25px;
+	margin: 0 0 0 160px;
+	padding: 25px 30px 25px 30px;
 }
 
 nav {
 	position: absolute;
-	/*border: 2px solid black; REMOVE*/
-	margin: 20px 0 0 50%;
+	/*border: 2px solid black; For refernce only*/
+	margin: 20px 0 0 0;
+	float: left;
+	left: 900px;
 
+}
+
+header a {
+	text-decoration: none;
+	color: inherit;
 }
 
 
@@ -58,22 +67,20 @@ CONTENT
 =======
 */
 .content {
-	margin-top: 30px;
+	margin-top: 40px;
 	position: relative;
 }
 
-section {
+article {
 	position: relative;
 	float: left;
-	/*border: 3px solid cyan; /*REMOVE*/
-	margin: 0 0 40px 15%;
+	margin: 0 0 40px 160px;
 	background-color: #ffffff;
 	width: 650px;
 
 }
 aside {
 	position: relative;
-	/*border: 3px solid cyan; /*REMOVE*/
 	display: inline;
 	background-color: #ffffff;
 	float: left;
@@ -82,7 +89,7 @@ aside {
 }
 
 hr {
-	margin: 0 15px 0 15px;
+	margin: 0 30px 0 30px;
 }
 
 /*
@@ -90,21 +97,23 @@ hr {
 ABOUT ME
 ========
 */
-section h2 {
+article h2 {
 	color: #4aaaa5;
 	font-weight: bold;
 	font-family: 'Georgia', Times, Times New Roman, serif;
-	font-size: 24px;
-	margin: 15px 0 15px 10px;
+	font-size: 30px;
+	margin: 35px 0 35px 30px;
 }
 
-article {
-	margin: 15px 10px 15px 10px;
+section {
+	margin: 30px 30px 35px 30px;
 }
 
-article img {
+section img {
 	float: left;
-	padding: 0 10px 10px 0;
+	padding: 0 25px 20px 0;
+	width: 300px;
+	height: 300px;
 }
 
 /*
@@ -118,18 +127,28 @@ aside h2 {
 	font-weight: bold;
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	font-size: 24px;
-	margin: 15px 0 15px 10px;
+	margin: 15px 0 15px 30px;
 }
 
 aside ul {
 	text-align: center;
-	margin: 15px 0 15px 0;
+	margin: 25px 0 40px 0;
 }
 
 aside ul li {
 	display: inline;
 }
 
+.fa-github-square {
+	color: #333;
+}
+.fa-linkedin-square {
+	color: #0077B5;
+	padding: 0 10px 0 10px;
+}
+.fa-stack-overflow {
+	color: orange;
+}
 
 /*
 ======
