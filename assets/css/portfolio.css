@@ -113,7 +113,7 @@ section img {
 	width: 275px;
 }
 
-.imgtest {
+.imgwrap {
 	position: relative;
 	text-align: center;
 }
@@ -123,12 +123,15 @@ section img {
 	padding-bottom: 50px;
 }
 
-.hangman {
+.image1text {
 	position: absolute;
+	font-family: 'Georgia', Times, Times New Roman, serif;
 	color: white;
+	font-size: 20px;
 	background-color: #4aaaa5;
-	padding: 30px 100% 30px 0;
-	margin:;
+	width: 275px;
+	padding: 15px 0 15px 0;
+	top: 130px;
 }
 
 .image2 {
@@ -136,9 +139,32 @@ section img {
 	padding-bottom: 50px;
 }
 
+.image2text {
+	position: absolute;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color: white;
+	font-size: 20px;
+	background-color: #4aaaa5;
+	width: 275px;
+	padding: 15px 0 15px 0;
+	top: 130px;
+	left: 315px;
+}
+
 .image3 {
 	float: left;
 	padding-bottom: 50px;
+}
+
+.image3text {
+	position: absolute;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color: white;
+	font-size: 20px;
+	background-color: #4aaaa5;
+	width: 275px;
+	padding: 15px 0 15px 0;
+	top: 390px;
 }
 
 .image4 {
@@ -146,9 +172,33 @@ section img {
 	padding-bottom: 50px;
 }
 
+.image4text {
+	position: absolute;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color: white;
+	font-size: 20px;
+	background-color: #4aaaa5;
+	width: 275px;
+	padding: 15px 0 15px 0;
+	top: 390px;
+	left: 315px;
+}
+
 .image5 {
 	float: left;
 }
+
+.image5text {
+	position: absolute;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color: white;
+	font-size: 20px;
+	background-color: #4aaaa5;
+	width: 275px;
+	padding: 15px 0 15px 0;
+	top: 650px;
+}
+
 .clear {
 	clear: both;
 }
