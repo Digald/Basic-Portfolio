@@ -92,9 +92,9 @@ hr {
 }
 
 /*
-============
-CONTACT FORM
-============
+==========
+Portfolio
+==========
 */
 article h2 {
 	color: #4aaaa5;
@@ -108,28 +108,49 @@ section {
 	margin: 30px 30px 35px 30px;
 }
 
-.namebox {
-	height: 33px;
-	width: 100%;
+section img {
+	height: 210px;
+	width: 275px;
 }
 
-.emailbox {
-	height: 33px;
-	width: 100%;
+.imgtest {
+	position: relative;
+	text-align: center;
 }
 
-.messagebox {
-	height: 200px;
-	width: 100%;
+.image1 {
+	float: left;
+	padding-bottom: 50px;
 }
 
-.button {
-	color: #ffffff;
+.hangman {
+	position: absolute;
+	color: white;
 	background-color: #4aaaa5;
-	border: none;
-	width: 118px;
-	height: 42px;
-	font-size: 18px;
+	padding: 30px 100% 30px 0;
+	margin:;
+}
+
+.image2 {
+	float: right;
+	padding-bottom: 50px;
+}
+
+.image3 {
+	float: left;
+	padding-bottom: 50px;
+}
+
+.image4 {
+	float: right;
+	padding-bottom: 50px;
+}
+
+.image5 {
+	float: left;
+}
+.clear {
+	clear: both;
 }
 
 /*
